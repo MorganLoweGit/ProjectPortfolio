@@ -1,0 +1,263 @@
+@font-face {
+    font-family: Gabarito;
+    src: url(Gabarito-VariableFont_wght.ttf) format('ttf');
+}
+
+.page-top {
+    margin-top: 140px;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    background-image: linear-gradient(30deg, #3d6140, #d5d670);
+    color: #222222;
+    font-family: Gabarito, "Trebuchet MS", sans-serif;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+body > * { /* All elements of body */
+    margin: 30px;
+}
+  
+.topnav {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    left: 30px;
+    margin: 0;
+    z-index: 999;
+    overflow: hidden;
+    min-width: 90px;
+    background-color: #222222;
+}
+
+a.active {
+    background-color: #222222;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: #e0e9e9;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    background: #222222;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.topnav a:hover, .topnav .active:hover{
+    background-color: #aaaaaa;
+}
+
+.nav-burger {
+    height: 56px;
+}
+
+.pfp-image {
+    display: block;
+    width: 45px;
+    height: auto;
+}
+
+.profile-box {
+    margin: auto;
+    width: 50%;
+    max-width: 300px;
+    background-color: #a0d683;
+    padding: 15px;
+}
+
+.profile-pic {
+    width: 100%;
+}
+
+header {
+    font-size: 72px;
+    font-weight: 900;
+    background-color: #a0d683;
+    padding: 15px;
+}
+
+header p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#SWLogo {
+    border-radius: 15px;
+    background-color: #222222;
+    padding: 10px;
+    width: 300px;
+}
+
+.article-container {
+    overflow: auto;
+}
+
+.text-box, .canvas-box, .photo-box {
+    background-color: #e0e9e9;
+    color: #222222;
+    width: calc((100% - 90px)/2);
+    height: 500px;
+    display: inline;
+    padding: 15px;
+}
+
+.text-box-profile {
+    background-color: #e0e9e9;
+    color: #222222;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+.text-box > p {
+    margin: 0;
+    vertical-align: middle;
+}
+
+#more-text {
+    display: none;
+}
+
+.canvas-box {
+    position: static;
+    display: grid;
+}
+
+.photo-box {
+    display: flexbox;
+}
+
+.canvas-box p, .photo-box p{
+    color:#e0e9e9;
+    background-color: #222222;
+    font-size: 1vw;
+    margin: 0;
+    padding: 5px 15px 5px 15px;
+    display: inline;
+    position: absolute;
+}
+
+.photo-box > img {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    width: 270px;
+    height: auto;
+}
+
+canvas {
+    top: 0;
+    left: 0;
+}
+
+#btn {
+    background-color: #a0d683;
+    font-family: Gabarito, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    border: none;
+}
+
+#btn:hover {
+    background-color: #3d6140;
+}
+
+.game-video {
+    padding: 15px;
+    background-color: #e0e9e9;
+}
+
+video {
+    max-width: 1200px;
+    display: grid;
+    place-self: center;
+}
+
+.software-list {
+    background-color: #e0e9e9;
+    text-align: center;
+    height: 100%;
+}
+
+.software-img {
+    height: 150px;
+}
+
+.software-list > ul {
+    padding: 15px;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+    display: inline-block;
+    height: 100%;
+}
+
+.software-list > ul > li {
+    float: left;
+    padding: 0 15px 0 15px;
+    height: 100%;
+    font-size: 10px;
+    color: #222222;
+}
+
+.footer-tab {
+    background-color: #3d6140;
+    color: #e0e9e9;
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-tab > table {
+    position: relative;
+    left: 5%;
+    right: 5%;
+    border-spacing: 50px;
+}
+
+.menu-box {
+    background-color: #e0e9e9;
+    color: #222222;
+    width: calc((100% - 30px)/2);
+    max-width: 700px;
+    display: inline-block;
+    overflow: hidden;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.menu-box > a {
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: #e0e9e9;
+}
+
+.menu-box > a > p {
+    margin: 15px;
+    padding: 15px;
+    margin: 0;
+    background-color: #3d6140;
+    color: #e0e9e9;
+}
+
+.menu-image {
+    width: calc(100% - 30px);
+    height: auto;
+    padding: 15px;
+}

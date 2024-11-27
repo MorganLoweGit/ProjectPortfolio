@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="styles/PagesCSS.css" rel="stylesheet" type="text/css"/>
+
+        <!--three.js reference-->
+        <script async src="https://unpkg.com/es-module-shims @1.8.0/dist/es-module-shims.js"> </script>
+        <script type="importmap"> { "imports": { "three":
+        "https://unpkg.com/three@0.169.0/build/three.module.js" } } </script>
+        <script type="module" src="assets/Bucket Ball JS.js"></script>
+    </head>
+    <body>
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="index.html" class="active"><img src="assets\pfp_crop.jpg" class="pfp-image"></a>
+            <div id="myLinks">
+                <a href = "Slot Wars.html"><u>SLOT WARS</u></a>
+                <a href = "Bucket Ball.html"><u>BUCKET BALL</u></a>
+                <a href = "Key Plunderers.html"><u>KEY PLUNDERERS</u></a></a>
+                <a href = "Crumble Arena.html"><u>CRUMBLE ARENA</u></a>
+            </div>
+
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+            </script>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="assets\logos\three-horizontal-lines-icon.png" class="nav-burger">
+            </a>
+        </div>
+
+        <header class="page-top">
+            <h>BUCKET BALL</h>
+            <p>Unreal Engine 5 project</p>
+        </header>
+        <div class="article-container">
+            <div class="text-box" style="float: left;">
+                <p>Bucket Ball is a game I developed using Unreal Engine 5, 
+                using the in-built blueprint system. I learnt many workflows
+                during my time in development, such as animations, asset building
+                and particle systems.
+                <br><br>In the first stages of development, I white-box prototyped the setting 
+                that the player will play in. I used Unreal Engine 5's landscape tools combined with 
+                a custom landscape material that automatically changes texture based on landscape steepness. 
+                Through development I am also practicing revision control with GitHub.
+                <br><br>Further into development, I used Adobe's Mixamo to find a character model and animations, 
+                then created my own blend spaces to handle these animations. I then focused on core gameplay mechanics of 
+                throwing basketballs into hoops, paired with a UI system to display the score and current level to the player.
+                <br><br>In the last stages of development, I focused on asset building. My workflow was modelling 
+                and UV mapping using Maya, then painting textures with Substance Painter 3D. I used Photoshop to create 
+                the target pictures in the goal props.</p>
+            </div>
+            <div class="canvas-box" style="float: right;" id="canvas-box"><p>Left click: rotate (hold to pause rotation), scroll wheel: zoom</p></div>
+        </div>
+        <header>
+            <h>GAMEPLAY VIDEO</h>
+        </header>
+        <div class="game-video">
+            <video width="100%" height="auto" controls loop>
+                <source src="assets\videos\Bucket Ball Gameplay.mp4" type="video/mp4">
+                Your browser does not support this video
+            </video>
+        </div>
+        <header>
+            <h>SOFTWARES</h>
+        </header>
+        <div class="software-list">
+            <ul>
+                <li><img src="assets\logos\Unreal_Engine-Logo.png" class="software-img"><figure>Unreal Engine 5.2.1</figure></li>
+                <li><img src="assets\logos\autodesk-maya-logo.png" class="software-img"><figure>Autodesk Maya</figure></li>
+                <li><img src="assets\logos\adobe-substance-3d-painter-icon.png" class="software-img"><figure>Adobe Substance Painter 3D</figure></li>
+                <li><img src="assets\logos\adobe-photoshop-icon.png" class="software-img"><figure>Adobe Photoshop</figure></li>
+                <li><img src="assets\logos\mixamo-logo.png" class="software-img"><figure>Adobe Mixamo</figure></li>
+            </ul>
+        </div>
+        <div class="footer-tab">
+            <table>
+                <tr>
+                    <td>
+                        <p>morganwtlowe@gmail.com</p>
+                    </td>
+                    <td>
+                        <p>07834457944</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

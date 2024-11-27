@@ -1,0 +1,14 @@
+Unreal engine - https://en.m.wikipedia.org/wiki/File:Unreal_Engine_Logo.svg
+Maya - https://www.armada.co.uk/course/maya-training/
+Substance Painter - https://uxwing.com/adobe-substance-3d-painter-icon/
+Photoshop - https://uxwing.com/adobe-photoshop-icon/
+Illustrator - https://uxwing.com/adobe-illustrator-icon/
+Audition - https://uxwing.com/adobe-audition-icon/
+Hamburger icon - https://uxwing.com/three-horizontal-lines-icon/
+paint 3d - https://icons8.com/icons/set/paint-3d
+c++ - https://uxwing.com/c-plus-plus-programming-language-icon/
+c# - https://uxwing.com/c-sharp-programming-language-icon/
+pygame - https://en.m.wikipedia.org/wiki/File:Pygame_logo.svg
+python - https://en.m.wikipedia.org/wiki/File:Python-logo-notext.svg
+mixamo - https://www.mixamo.com/#/
+visual studio 2022 - https://en.wikipedia.org/wiki/File:Visual_Studio_Icon_2022.svg

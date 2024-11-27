@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="styles/PagesCSS.css" rel="stylesheet" type="text/css"/>
+
+        <!--three.js reference-->
+        <script async src="https://unpkg.com/es-module-shims @1.8.0/dist/es-module-shims.js"> </script>
+        <script type="importmap"> { "imports": { "three":
+        "https://unpkg.com/three@0.169.0/build/three.module.js" } } </script>
+        <script type="module" src="assets/main.js"></script>
+    </head>
+    <body>
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="index.html" class="active"><img src="assets\pfp_crop.jpg" class="pfp-image"></a>
+            <div id="myLinks">
+                <a href = "Slot Wars.html"><u>SLOT WARS</u></a>
+                <a href = "Bucket Ball.html"><u>BUCKET BALL</u></a>
+                <a href = "Key Plunderers.html"><u>KEY PLUNDERERS</u></a></a>
+                <a href = "Crumble Arena.html"><u>CRUMBLE ARENA</u></a>
+            </div>
+
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+            </script>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="assets\logos\three-horizontal-lines-icon.png" class="nav-burger">
+            </a>
+        </div>
+
+        <header class="page-top">
+            <h>CRUMBLE ARENA</h>
+            <p>NEA PyGame Project</p>
+        </header>
+        <div class="article-container">
+            <div class="text-box" style="float: left;">
+                <p>College NEA project. This game was built only using basic imports, including pygame. 
+                    I made my own custom animation system using a spritesheet, where I also drew up my own assets. 
+                    <br><br>The tilemap used a perlin noise texture, that was then filtered to output a square island shape. 
+                    I then handled what texture from the spritesheet each tile would need to create the ocean, island edges and island itself.
+                    I created a system where tiles of the background tilemap would be unloaded and loaded depending on
+                    if they are on the screen. 
+                    <br><br>I worked using Object Oriented Programming so then my code would maintain some structure and be more efficient, and
+                    inheriting to re-use code for new objects. I used a delta time system to make the game FPS independent. In the later stages of 
+                    development I created some ui button elements to create a basic menu system, and then a loading screen to allow the game to load.
+                    <br><br>I never finished this project, but this project taught myself alot about time management, and misunderstanding how much work 
+                    can be done in so much time.</p>
+            </div>
+            <div class="photo-box" style="float: right;" id="photo-box"><p>Spritesheet for all sprites in the game, including sprites for the tilemap.</p><img src="assets/crumble_arena_spritesheet.png" style="width: 800px; margin-top: 50px;"></div>
+        </div>
+        <header>
+            <h>GAMEPLAY VIDEO</h>
+        </header>
+        <div class="game-video">
+            <video width="100%" height="auto" controls loop>
+                <source src="assets\videos\Crumble Arena Gameplay.mp4" type="video/mp4">
+                Your browser does not support this video
+            </video>
+        </div>
+        <header>
+            <h>SOFTWARES</h>
+        </header>
+        <div class="software-list">
+            <ul>
+                <li><img src="assets\logos\pygame-icon.png" class="software-img"><figure>PyGame</figure></li>
+                <li><img src="assets\logos\paint-3d.png" class="software-img"><figure>MS Paint 3D</figure></li>
+                <li><img src="assets\logos\python-icon.png" class="software-img"><figure>Python</figure></li>
+            </ul>
+        </div>
+        <div class="footer-tab">
+            <table>
+                <tr>
+                    <td>
+                        <p>morganwtlowe@gmail.com</p>
+                    </td>
+                    <td>
+                        <p>07834457944</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

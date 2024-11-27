@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link href="styles/PagesCSS.css" rel="stylesheet" type="text/css"/>
+
+        <!--three.js reference-->
+        <script async src="https://unpkg.com/es-module-shims @1.8.0/dist/es-module-shims.js"> </script>
+        <script type="importmap"> { "imports": { "three":
+        "https://unpkg.com/three@0.169.0/build/three.module.js" } } </script>
+        <script type="module" src="assets/main.js"></script>
+    </head>
+    <body>
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="index.html" class="active"><img src="assets\pfp_crop.jpg" class="pfp-image"></a>
+            <div id="myLinks">
+                <a href = "Slot Wars.html"><u>SLOT WARS</u></a>
+                <a href = "Bucket Ball.html"><u>BUCKET BALL</u></a>
+                <a href = "Key Plunderers.html"><u>KEY PLUNDERERS</u></a></a>
+                <a href = "Crumble Arena.html"><u>CRUMBLE ARENA</u></a>
+            </div>
+
+            <script>
+                function myFunction() {
+                  var x = document.getElementById("myLinks");
+                  if (x.style.display === "block") {
+                    x.style.display = "none";
+                  } else {
+                    x.style.display = "block";
+                  }
+                }
+            </script>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="assets\logos\three-horizontal-lines-icon.png" class="nav-burger">
+            </a>
+        </div>
+
+        <header class="page-top">
+            <h>KEY PLUNDERERS</h>
+            <p>Unity project</p>
+        </header>
+        <div class="article-container">
+            <div class="text-box" style="float: left;">
+                <p>Key Plunderers is my first 2D Unity Project. 
+                This project was my first experience with Unity, C#, and revision control using GitHub.
+                <br><br>After learning basic C#, I began with working on the player movement scripts and key objects. 
+                This involved using RididBody and BoxCollider components, and learning how they can be utilised.
+                <br><br>I then drew some sprites for the character animations in Paint 3D, and imported them into Unity. 
+                After creating the animation handlers I created a RigidBody box that can be pushed along the floor, 
+                that can activate a secret trigger on the left side of the map to unlock a speed multiplier power up.
+                <br><br>To finalise the core gameplay loop I created a goal object that progresses the player once 
+                they unlock it with the colour-coded key. I added the ability to play as a second character with a 
+                controller, and the ability to change from keyboard to controller on the main character.
+            <br></p>
+            </div>
+            <div class="photo-box" style="float: right;" id="photo-box"><p>Spritesheet for the yellow goal completion animation.</p><img src="assets/goal_spritesheet.png"></div>
+        </div>
+        <header>
+            <h>GAMEPLAY VIDEO</h>
+        </header>
+        <div class="game-video">
+            <video width="100%" height="auto" controls loop>
+                <source src="assets\videos\Key Plunderers Gameplay.mp4" type="video/mp4">
+                Your browser does not support this video
+            </video>
+        </div>
+        <header>
+            <h>SOFTWARES & LANGUAGES</h>
+        </header>
+        <div class="software-list">
+            <ul>
+                <li><img src="assets\logos\unity-game-engine-icon.png" class="software-img"><figure>Unity</figure></li>
+                <li><img src="assets\logos\paint-3d.png" class="software-img"><figure>Paint 3D</figure></li>
+                <li><img src="assets\logos\c-sharp-programming-language-icon.png" class="software-img"><figure>C#</figure></li>
+                <li><img src="assets\logos\visual-studio-icon-2022.png" class="software-img"><figure>Visual Studio 2022</figure></li>
+            </ul>
+        </div>
+        <div class="footer-tab">
+            <table>
+                <tr>
+                    <td>
+                        <p>morganwtlowe@gmail.com</p>
+                    </td>
+                    <td>
+                        <p>07834457944</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

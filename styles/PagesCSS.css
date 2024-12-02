@@ -223,7 +223,7 @@ video {
     height: 150px;
 }
 
-.software-list > ul {
+.software-list > ul, .footer-tab > ul {
     padding: 15px;
     margin: 0;
     overflow: hidden;
@@ -248,44 +248,18 @@ video {
     background-color: #3d6140;
     color: #e0e9e9;
     margin: 0;
-    font-size: 16px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-align: center;
 }
 
-.footer-tab > table {
-    position: relative;
-    align-items: center;
-    left: 5%;
-    right: 5%;
-    border-spacing: 50px;
+.footer-tab > ul > li{
+    float: left;
+    padding: 10px 50px 40px 50px;
 }
 
-.menu-box {
-    background-color: #e0e9e9;
-    color: #222222;
-    width: calc((100% - 30px)/2);
-    max-width: 700px;
-    display: inline-block;
-    overflow: hidden;
-    transition: all;
-    transition-duration: 1s;
-}
-
-.menu-box > a {
+.footer-tab > ul > li > a, p{
     margin: 0;
-    text-decoration: underline;
-    text-decoration-color: #e0e9e9;
-}
-
-.menu-box > a > p {
-    margin: 15px;
-    padding: 15px;
-    margin: 0;
-    background-color: #3d6140;
     color: #e0e9e9;
 }
 
-.menu-image {
-    width: calc(100% - 30px);
-    height: auto;
-    padding: 15px;
-}
